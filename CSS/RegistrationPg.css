@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: black;
+
+}
+
+.container {
+    margin: 100px;
+}
+
+.inlinetoblock {
+    display: block;
+}
+
+.blocktoinline {
+    display: inline-block;
+}
+.col-container {
+    display: table;
+    width: 53%;
+}
+.col {
+    display: table-cell;
+    padding: 16px;
+}
+#signup-text {
+    background-image: url(/Assets/login_img_.png);
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    background-color: #2874F0;
+    color: white;
+}
+#registration-form {
+    background-color: white;
+    padding-left: 65px;
+    /* width: 60%; */
+}
+.textColor {
+    color: gray;
+}
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #2874F0;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#btn-signup {
+    margin-top: 30px;
+    width: 300px;
+    height: 55px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FB641B;
+    color: white;
+    border-radius: 2px;
+}
+
+#btn-login {
+    margin-top: 30px;
+    width: 300px;
+    height: 55px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: #2874F0;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
